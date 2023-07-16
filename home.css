@@ -1,0 +1,61 @@
+#speakers{
+    margin-bottom: 0px;
+}
+
+.speaker{
+    display: flex;
+    margin-bottom: 20px;
+}
+#hiddenSpeakers{
+    display: none;
+}
+.image{
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-basis: 25%;
+    margin: 10px;
+}
+.speaker img{
+    width: 100%;
+    height: auto;
+    object-fit:cover;
+    border-radius: 50%;
+    border: 7px solid #ffa500;
+}
+.desc{
+    flex-grow: 1;
+}
+.desc h4{
+    margin-bottom: 5px;
+}
+
+#discoverMore{
+    background-color:#ffa500;
+    margin: 0;
+    margin-bottom: 20px;
+    height: 60px;
+    text-align: center;
+    line-height: 60px;
+    color: white;
+}
+
+#discoverMore:hover{
+    opacity: 0.8;
+    cursor: pointer;
+}
+#discoverMore:hover h3{
+    transform: scaleX(1.2);
+}
+
+#showLess{
+    color:#ffa500;
+    text-decoration: underline;
+}
+#showLess:hover{
+    cursor: pointer;
+}
+
+#showLessP{
+    display: flex;
+    justify-content: center;
+}

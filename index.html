@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="common.css">
+    <link rel="stylesheet" href="home.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,400;1,700&display=swap" rel="stylesheet">
+    <title>TechCon 2023</title>
+</head>
+<body>
+    <div id="navButton">
+        &#x2630;
+    </div>
+    <div id="navBar">
+        <ul>
+            <li id="navHome">Home</li>
+            <li id="navReg">Register Now</li>
+            <li id="navDisplay">Display Registrees</li>
+            <li id="navContact">Contact Us</li>
+        </ul>
+    </div>
+    <div class="head">
+        <div id="title">
+            TechCon 2023 - Empowering the Future
+        </div>
+        <div id="display">
+            <button id="display-button">Display Registrees</button>
+        </div>
+    </div>
+    <div id="mainBodyContainer">
+        <div class="main-body">
+            <div id="about">
+                <h3 class="subtitle">About the Event</h3>
+                <p>
+                    Join us for TechCon 2023, a technology conference aimed at 
+                    empowering the future through innovation, collaboration, 
+                    and knowledge sharing. This event brings together industry leaders, 
+                    tech enthusiasts, and professionals from various domains to explore 
+                    emerging technologies, discuss trends, and network with like-minded individuals. 
+                    Whether you're a developer, designer, entrepreneur, or simply curious about the 
+                    latest advancements in technology, TechCon 2023 is the place to be!
+                </p>
+            </div>
+            <div id="speakers">
+                <h3 class="subtitle">Meet Our Guest Speakers</h3>
+                <div class="speaker" id="speaker1">
+                    <div class="image" id="image1" >
+                        <img src="Lisa Su.jpg" alt="" >
+                    </div>
+                    <div class="desc" id="desc1">
+                        <h4>Lisa Su - CEO of Advanced Micro Devices (AMD)</h4>
+                        <p>Lisa Su is a renowned technology executive and the CEO of Advanced Micro Devices (AMD), a global leader in high-performance computing, graphics, and visualization technologies. With her visionary leadership, Lisa has driven AMD's innovation and growth, revolutionizing the computing industry. Under her guidance, AMD has delivered groundbreaking processors and graphics solutions, empowering users with exceptional performance and immersive experiences.</p>
+                    </div>
+                </div>
+                <div class="speaker" id="speaker2">
+                    <div class="desc" id="desc2">
+                        <h4>Sundar Pichai - CEO of Google and Alphabet Inc.</h4>
+                        <p>Sundar Pichai is the CEO of Google and its parent company, Alphabet Inc. As a technology visionary, he has spearheaded numerous transformative initiatives, pushing the boundaries of innovation and shaping the future of technology. Sundar's leadership has propelled Google's advancements in search, artificial intelligence, cloud computing, and other cutting-edge technologies, enabling people around the world to access information and harness the power of technology.</p>
+                    </div>
+                    <div class="image" id="image2">
+                        <img src="Sundar Pichai.jpg" alt="">
+                    </div>
+                </div>
+                <div id="hiddenSpeakers">
+                    <div class="speaker" id="speaker3">
+                        <div class="image" id="image3" >
+                            <img src="Sheryl Sandberg.jpg" alt="" >
+                        </div>
+                        <div class="desc" id="desc3">
+                            <h4>Sheryl Sandberg - COO of Facebook</h4>
+                            <p>Sheryl Sandberg is the Chief Operating Officer of Facebook and a prominent advocate for empowering individuals through technology. With her extensive experience in the tech industry, Sheryl has played a pivotal role in driving Facebook's mission to connect people and build communities. She is a strong voice for promoting diversity, inclusion, and digital safety, striving to create a positive and inclusive online environment for users worldwide.</p>
+                        </div>
+                    </div>
+                    <div class="speaker" id="speaker4">
+                        <div class="desc" id="desc4">
+                            <h4>Elon Musk - CEO of Tesla and SpaceX</h4>
+                            <p>Elon Musk is a visionary entrepreneur and the CEO of Tesla, an electric vehicle and clean energy company, as well as SpaceX, a private aerospace manufacturer. Renowned for his groundbreaking innovations and bold ideas, Elon is driving the future of sustainable transportation and space exploration. His relentless pursuit of technological advancements, such as electric vehicles, reusable rockets, and neural interfaces, is revolutionizing industries and pushing the boundaries of human potential.</p>
+                        </div>
+                        <div class="image" id="image4">
+                            <img src="Elon Musk.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="speaker" id="speaker5">
+                        <div class="image" id="image5" >
+                            <img src="Satya Nadella.jpg" alt="" >
+                        </div>
+                        <div class="desc" id="desc5">
+                            <h4>Satya Nadella - CEO of Microsoft</h4>
+                            <p>Satya Nadella is the CEO of Microsoft, a global technology leader empowering individuals and organizations with its software, services, and devices. With a focus on creating a more inclusive and intelligent digital future, Satya has championed initiatives that leverage AI, cloud computing, and mixed reality technologies. Under his leadership, Microsoft has transformed into a company dedicated to empowering people to achieve more and driving positive societal impact through technology.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <p id="showLessP">
+                            <span id="showLess">Show less</span></p>
+                    </div>
+                </div>
+            </div>
+            <div id="discoverMore">
+                <h3>Discover More >>></h3>
+            </div>
+            <form id="register">
+                <h3 class="subtitle">Register Now</h3>
+                <div class="form-element"id="ffname">
+                    <p>First Name</p>
+                    <input type="text" id="fname" name="fname" required>      
+                </div>
+                <div class="form-element" id="llname">
+                    <p>Last Name</p>
+                    <input type="text" id="lname" name="lname" required>      
+                </div>
+                <div class="form-element" id="eemail" >
+                    <p>Email Address</p>
+                    <input type="text" id="email" name="email" required>
+                </div>
+                <div class="form-element" id="pphone" >
+                    <p>Phone Number</p>
+                    <input type="text" id="phone" name="phone">
+                </div>
+                <div class="form-element" id="gender">
+                    <p>Gender</p>
+                    <label>
+                        <input type="radio" name="gender" value="male" >
+                        Male
+                    </label>
+                    <label id="radio2">
+                        <input type="radio" name="gender" value="female">
+                        Female
+                    </label>
+                </div>
+                <div class="form-element" id="bbirth" >
+                    <p>Birth Date</p>
+                    <input type="text" id="birthdate" name="birthdate">
+                </div>
+                <div id="education">
+                    <div class="form-element" id="uni">
+                        <p>University</p>
+                        <input type="text" id="univ" name="univ">
+                    </div>
+                    <div class="form-element" id="major">
+                        <p>Major</p>
+                        <input type="text" id="maj" name="maj">
+                    </div>
+                </div>
+                <div class="form-element"  id="experience">
+                    <p>Are you currently employed?</p>
+                    <label>
+                        <input type="radio" name="employed" value="Yes">
+                        Yes
+                    </label>
+                    
+                    <label id="radio2">
+                        <input type="radio" name="employed" value="No">
+                        No
+                    </label>
+
+                </div>
+                <div class="motivation" id="motivation">
+                    <p>Please explain your motivation behind joining this conference.</p>
+                    <textarea id="motive" name="motive" rows="5" cols="82">
+                    </textarea>
+                </div>
+                <div class="submit-container">
+                <input id="submit" type="submit" value="Submit">
+                </div>
+            </form>
+        </div>
+    </div>
+    <!-- <footer id="footer">
+        <div>
+            <div class="contact">
+                <h3>Contact Us</h3>
+                <p>techcon@outlook.com</p>
+                <p>+961 71 123 456</p>
+                <p>linked in</p>
+            </div>
+            <div class="sponsors"></div>
+        </div>
+    </footer> -->
+</body>
+<script src="home.js"></script>
+<script src="common.js"></script>
+</html>
